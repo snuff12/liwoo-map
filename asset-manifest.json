@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/liwoomap/static/css/main.3a6c4815.chunk.css",
+    "main.js": "/liwoomap/static/js/main.7a9b4eb0.chunk.js",
+    "main.js.map": "/liwoomap/static/js/main.7a9b4eb0.chunk.js.map",
+    "runtime-main.js": "/liwoomap/static/js/runtime-main.abffc6d2.js",
+    "runtime-main.js.map": "/liwoomap/static/js/runtime-main.abffc6d2.js.map",
+    "static/js/2.e1e05842.chunk.js": "/liwoomap/static/js/2.e1e05842.chunk.js",
+    "static/js/2.e1e05842.chunk.js.map": "/liwoomap/static/js/2.e1e05842.chunk.js.map",
+    "index.html": "/liwoomap/index.html",
+    "precache-manifest.b4eded4d5dd2124bbd2eeb3a69ed01ba.js": "/liwoomap/precache-manifest.b4eded4d5dd2124bbd2eeb3a69ed01ba.js",
+    "service-worker.js": "/liwoomap/service-worker.js",
+    "static/css/main.3a6c4815.chunk.css.map": "/liwoomap/static/css/main.3a6c4815.chunk.css.map",
+    "static/js/2.e1e05842.chunk.js.LICENSE.txt": "/liwoomap/static/js/2.e1e05842.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abffc6d2.js",
+    "static/js/2.e1e05842.chunk.js",
+    "static/css/main.3a6c4815.chunk.css",
+    "static/js/main.7a9b4eb0.chunk.js"
+  ]
+}
