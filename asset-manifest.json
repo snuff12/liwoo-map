@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/liwoo-map/static/css/main.3a6c4815.chunk.css",
-    "main.js": "/liwoo-map/static/js/main.e2405fa1.chunk.js",
-    "main.js.map": "/liwoo-map/static/js/main.e2405fa1.chunk.js.map",
+    "main.js": "/liwoo-map/static/js/main.28b4ea6a.chunk.js",
+    "main.js.map": "/liwoo-map/static/js/main.28b4ea6a.chunk.js.map",
     "runtime-main.js": "/liwoo-map/static/js/runtime-main.b0ff7d81.js",
     "runtime-main.js.map": "/liwoo-map/static/js/runtime-main.b0ff7d81.js.map",
     "static/js/2.e1e05842.chunk.js": "/liwoo-map/static/js/2.e1e05842.chunk.js",
     "static/js/2.e1e05842.chunk.js.map": "/liwoo-map/static/js/2.e1e05842.chunk.js.map",
     "index.html": "/liwoo-map/index.html",
-    "precache-manifest.ea944cc37b45d8179db4d93674636e39.js": "/liwoo-map/precache-manifest.ea944cc37b45d8179db4d93674636e39.js",
+    "precache-manifest.c614af0b46901465935fd9b246422694.js": "/liwoo-map/precache-manifest.c614af0b46901465935fd9b246422694.js",
     "service-worker.js": "/liwoo-map/service-worker.js",
     "static/css/main.3a6c4815.chunk.css.map": "/liwoo-map/static/css/main.3a6c4815.chunk.css.map",
     "static/js/2.e1e05842.chunk.js.LICENSE.txt": "/liwoo-map/static/js/2.e1e05842.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b0ff7d81.js",
     "static/js/2.e1e05842.chunk.js",
     "static/css/main.3a6c4815.chunk.css",
-    "static/js/main.e2405fa1.chunk.js"
+    "static/js/main.28b4ea6a.chunk.js"
   ]
 }
