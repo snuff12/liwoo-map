@@ -11,6 +11,7 @@
     "material-ui": "^0.20.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-infinite-scroll-component": "^5.0.4",
     "react-kakao-maps": "Musma/react-kakao-maps#0.0.1",
     "react-naver-maps": "^0.0.13",
     "react-popup-layer": "^0.2.3",
@@ -42,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://snuff12.github.io/liwoomap",
+  "homepage": "http://snuff12.github.io/liwoo-map",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
