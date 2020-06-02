@@ -11,7 +11,7 @@ export default function LIWOOInfo(){
             </div>
             <div style={{width: '70%', height: '30%', backgroundColor: 'yellow', float: 'left',fontFamily: '    Roboto, Arial, sans-serif'}}>
                 <h1>맛객리우A foodie</h1>
-                <h4>구독자 9.99만명</h4>
+                <h4>구독자 10.00만명</h4>
                 <a href="https://www.youtube.com/channel/UCTigVbNdTjgtLexOLGH3AlA/videos?view=0&sort=dd&flow=grid"><img src="//s2.googleusercontent.com/s2/favicons?feature=youtube_channel&domain_url=https%3A%2F%2Fwww.youtube.com" style={{width: '10%'}} alt="유튜브"/></a>
                 <a href ="https://www.instagram.com/liwoo_foodie/" style ={{fontSize:""}}><img src ="//s2.googleusercontent.com/s2/favicons?feature=youtube_channel&domain_url=https%3A%2F%2Fwww.instagram.com" style={{width: '10%'}} alt="인스타그램"/>Instagram</a>
             </div>
