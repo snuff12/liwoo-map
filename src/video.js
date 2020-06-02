@@ -6,6 +6,7 @@ const videos = [
         'restaurantInfo': '',
         'locationX': '37.474601',
         'locationY':'126.963943',
+         'foodTypes': '일식',
        },
        {
         'id': '2',
@@ -14,6 +15,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/5dnI4zHe',
         'locationX': '37.524780',
         'locationY':'127.036454',
+        'foodTypes': '일식',
        },
        {
         'id': '3',
@@ -22,6 +24,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/5XkZIiOL',
         'locationX': '37.603097',
         'locationY':'127.066007',
+        'foodTypes': '일식',
        },
        {
         'id': '4',
@@ -30,6 +33,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/GkEOiyF1',
         'locationX': '37.522134',
         'locationY':'127.038356',
+        'foodTypes': '일식',
        },
        {
         'id': '5',
@@ -38,6 +42,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/G6Zjc4Go',
         'locationX': '37.484358',
         'locationY':'127.046311',
+        'foodTypes': '디저트',
        },
        {
         'id': '6',
@@ -46,6 +51,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/Fa4bBg2M',
         'locationX': '37.49975',
         'locationY':'126.999003',
+        'foodTypes': '소고기',
        },
        {
         'id': '7',
@@ -54,6 +60,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/GKmd0tYl',
         'locationX': '37.559435',
         'locationY':'126.826578',
+        'foodTypes': '소고기',
        },
        {
         'id': '8',
@@ -62,6 +69,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/FMxZmSjy',
         'locationX': '37.543296',
         'locationY':'127.054228',
+        'foodTypes': '한식',
        },
        {
         'id': '9',
@@ -70,6 +78,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xSOeDuuM',
         'locationX': '37.453462',
         'locationY':'127.161068',
+        'foodTypes': '일식',
        },
        {
         'id': '10',
@@ -78,6 +87,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/59AfTQiT',
         'locationX': '37.520809',
         'locationY':'127.023736',
+        'foodTypes': '일식',
        },
        {
         'id': '11',
@@ -86,6 +96,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/Fkb4O1Cz',
         'locationX': '37.510908',
         'locationY':'127.064842',
+        'foodTypes': '소고기',
        },
        {
         'id': '12',
@@ -94,6 +105,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/FlYa2Bcg',
         'locationX': '37.546014',
         'locationY':'127.073033',
+        'foodTypes': '술집',
        },
        {
         'id': '13',
@@ -102,6 +114,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xZmz61Ik',
         'locationX': '37.506333',
         'locationY':'127.090658',
+        'foodTypes': '일식',
        },
        {
         'id': '14',
@@ -110,6 +123,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xbcTD8Xq',
         'locationX': '37.468651',
         'locationY':'126.936657',
+        'foodTypes': '일식',
        },
        {
         'id': '15',
@@ -118,6 +132,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/GnT1D2i1',
         'locationX': '37.555618',
         'locationY':'127.080997',
+        'foodTypes': '한식',
        },
        {
         'id': '16',
@@ -126,6 +141,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xermvIhC',
         'locationX': '37.536230',
         'locationY':'126.999163',
+        'foodTypes': '소고기',
        },
        {
         'id': '17',
@@ -134,6 +150,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/5WgoY6QR',
         'locationX': '37.564410',
         'locationY':'126.979710',
+        'foodTypes': '뷔페',
        },
        {
         'id': '18',
@@ -142,6 +159,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/F6zFUVgv',
         'locationX': '37.520601',
         'locationY':'127.027644',
+        'foodTypes': '소고기',
        },
        {
         'id': '19',
@@ -150,6 +168,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/FGpSgDKV',
         'locationX': '37.547741',
         'locationY':'127.087975',
+        'foodTypes': '술집',
        },
        {
         'id': '21',
@@ -158,6 +177,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/GLYjr4Mc',
         'locationX': '37.549134',
         'locationY':'126.917891',
+        'foodTypes': '소고기',
        },
        {
         'id': '22',
@@ -166,6 +186,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/FSKC3A3r',
         'locationX': '37.523117',
         'locationY':'127.032391',
+        'foodTypes': '일식',
        },
        {
         'id': '23',
@@ -174,6 +195,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xN9vD0HB',
         'locationX': '37.511289',
         'locationY':'127.111372',
+        'foodTypes': '일식',
        },
        {
         'id': '24',
@@ -182,6 +204,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/IxvUXSsw',
         'locationX': '37.497861',
         'locationY':'127.026166',
+        'foodTypes': '소고기',
        },
        {
         'id': '25',
@@ -190,6 +213,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xGn25ZnM',
         'locationX': '37.524162',
         'locationY':'127.053360',
+        'foodTypes': '소고기',
        },
        {
         'id': '26',
@@ -198,6 +222,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/FyNXMkh6',
         'locationX': '37.564535',
         'locationY':'126.979881',
+        'foodTypes': '뷔페',
        },
        {
         'id': '27',
@@ -206,6 +231,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/5UZh7pOL',
         'locationX': '37.485989',
         'locationY':'126.984397',
+        'foodTypes': '일식',
        },
        {
         'id': '28',
@@ -214,6 +240,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/Fh6I30h4',
         'locationX': '37.503047',
         'locationY':'127.027229',
+        'foodTypes': '일식',
        },
        {
         'id': '29',
@@ -222,6 +249,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/GkE6Og6Z',
         'locationX': '37.489118',
         'locationY':'127.009694',
+        'foodTypes': '일식',
        },
        {
         'id': '30',
@@ -230,6 +258,7 @@ const videos = [
         'restaurantInfo': 'http://naver.me/xWo9OjLf',
         'locationX': '37.392697',
         'locationY':'126.961112',
+        'foodTypes': '소고기',
        },
        
    ];

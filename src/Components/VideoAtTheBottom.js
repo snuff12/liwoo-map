@@ -27,7 +27,7 @@ class VideoAtTheBottom extends React.Component {
           height : '80%',
         }}
         title={videos[this.props.i+1].title}>
-        {<iframe width="98%" height="100%" src={videos[this.props.i+1].href} title ={videos[this.props.i+1].title} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>}
+        {<iframe width="98%" height="100%" src={videos[this.props.i+1].href} title ={videos[this.props.i+1].title} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}
       </CardMedia>
       <CardActions 
         disableSpacing
