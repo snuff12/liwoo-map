@@ -7,7 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { RenderAfterNavermapsLoaded, NaverMap } from 'react-naver-maps';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import MyLocationIcon from '@material-ui/icons/MyLocation';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import ncpClientId from '../ClientId.js';
 
 const styles = theme =>({
@@ -74,7 +74,11 @@ class Map extends Component {
     this.state={
       i:-1,
       locationX:videos[0].locationX,
-      locationY:videos[0].locationY
+      locationY:videos[0].locationY,
+      displayVATB:null,
+      displayButtonVATB:'none',
+      VATBWidth:'80%',
+      VATBHeight:'40%'
     };
   }
   render(){
@@ -89,6 +93,26 @@ class Map extends Component {
 
         }}
       >
+        <YouTubeIcon style={{
+            position: 'fixed',
+            right: '2%',
+            top: '1%',
+            zIndex: 150,
+            fontSize: 50,
+          }}
+          onClick={()=>{
+            this.state.displayVATB!=='none'?this.setState({
+              displayVATB:'none',
+              displayButtonVATB:null,
+              VATBWidth:'0%',
+              VATBHeight:'0%'}):this.setState({
+                displayVATB:null,
+                displayButtonVATB:'none',
+                VATBWidth:'80%',
+                VATBHeight:'40%'
+              })
+          }}
+        />
         <RenderAfterNavermapsLoaded
           ncpClientId={ncpClientId}
           error={<p>Maps Load Error</p>}
@@ -111,28 +135,12 @@ class Map extends Component {
             position : 'fixed',
             bottom: '10%',
             zIndex : 100,
-            width : '80%',
+            width : this.state.VATBWidth,
             left : '10%',
-            height: '40%',
+            height: this.state.VATBHeight,
+            display: this.state.displayVATB,
           }}
           >
-            <MyLocationIcon
-              style={{
-                position: 'fixed',
-                top: '3%',
-                right: '3%',
-                zIndex: 100,
-              }}
-              onClick={()=>{
-                if(navigator.geolacation){
-                  navigator.geolocation.getCurrentPosition(function(pos) {
-                    var latitude = pos.coords.latitude;
-                    var longitude = pos.coords.longitude;
-                    alert("현재 위치는 : " + latitude + ", "+ longitude);
-                  });
-                }
-              }}
-            >현위치</MyLocationIcon>
             <NavigateBeforeIcon style ={{
               position : 'absolute',
               left : '-10%',
