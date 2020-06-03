@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/liwoo-map/precache-manifest.cbeca0c3ccd376a2e9617a9417f119f5.js"
+  "/liwoo-map/precache-manifest.3538928d05a857ed1eef6987dbeba5fe.js"
 );
 
 self.addEventListener('message', (event) => {

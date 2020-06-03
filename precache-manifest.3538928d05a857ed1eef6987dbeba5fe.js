@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abd3c4bbed30db61fbdd27f5f85edc5f",
+    "revision": "44d7b110665fd93b86c6f15796beb741",
     "url": "/liwoo-map/index.html"
   },
   {
-    "revision": "a41771ec8df609eedcf6",
+    "revision": "5fe8872a410cd0ff94d7",
     "url": "/liwoo-map/static/css/main.3a6c4815.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liwoo-map/static/js/2.749191b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a41771ec8df609eedcf6",
-    "url": "/liwoo-map/static/js/main.7f130be8.chunk.js"
+    "revision": "5fe8872a410cd0ff94d7",
+    "url": "/liwoo-map/static/js/main.daf5f325.chunk.js"
   },
   {
     "revision": "1e70013dca97163b0336",
