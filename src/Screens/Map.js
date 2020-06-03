@@ -84,12 +84,10 @@ class Map extends Component {
       i:-1,
       locationX:videos[0].locationX,
       locationY:videos[0].locationY,
-      displayVATB:null,
-      displayButtonVATB:'none',
-      displaySelect:true,
-      displaySelectButton:false,
-      VATBWidth:'80%',
-      VATBHeight:'40%',
+      displayVATB:true,
+      displayButtonVATB:false,
+      displaySelect:false,
+      displaySelectButton:true,
       한식: true,
       중식: true,
       일식: true,
@@ -111,10 +109,10 @@ class Map extends Component {
           left : 0
 
         }}
-      >{this.state.displaySelectButton===true&&<Fab color="primary" aria-label="add" style={{marginTop:'5%', marginLeft:'5%', zIndex:150, position:'fixed'}} onClick={()=>{this.setState({displaySelectButton:false, displaySelect:true})}}>
+      >{this.state.displaySelectButton===true&&<Fab color="primary" aria-label="add" style={{marginTop:'2%', marginLeft:'4%', zIndex:150, position:'fixed', fontSize:50}} onClick={()=>{this.setState({displaySelectButton:false, displaySelect:true})}}>
           <FavoriteIcon/>
         </Fab>}
-        {this.state.displaySelect===true&&<div style ={{border:'1px solid black', borderRadius:'5px', width:'20%', paddingLeft:'1%', paddingTop:'1%', marginLeft:'5%', marginTop:'5%', position:'fixed', zIndex:150, backgroundColor:'ivory'}}>
+        {this.state.displaySelect===true&&<div style ={{border:'1px solid black', borderRadius:'5px', paddingLeft:'1%', paddingTop:'1%', marginLeft:'5%', marginTop:'5%', position:'fixed', zIndex:150, backgroundColor:'ivory', width: '40%', height:'40%',overflow:"auto"}}>
           <FormControl component="fieldset">
             <FormLabel component="legend">음식 종류</FormLabel>
             <FormGroup>
@@ -165,15 +163,12 @@ class Map extends Component {
             fontSize: 50,
           }}
           onClick={()=>{
-            this.state.displayVATB!=='none'?this.setState({
-              displayVATB:'none',
-              displayButtonVATB:null,
-              VATBWidth:'0%',
-              VATBHeight:'0%'}):this.setState({
-                displayVATB:null,
-                displayButtonVATB:'none',
-                VATBWidth:'80%',
-                VATBHeight:'40%'
+            this.state.displayVATB===true?this.setState({
+              displayVATB:false,
+              displayButtonVATB:true,
+              }):this.setState({
+                displayVATB:true,
+                displayButtonVATB:false,
               })
           }}
         />
@@ -194,15 +189,14 @@ class Map extends Component {
           </div>
         </RenderAfterNavermapsLoaded>
         {
-          <div style ={{
+          this.state.displayVATB===true&&<div style ={{
             paddingLeft : '5px',
             position : 'fixed',
             bottom: '10%',
             zIndex : 100,
-            width : this.state.VATBWidth,
+            width : '80%',
             left : '10%',
-            height: this.state.VATBHeight,
-            display: this.state.displayVATB,
+            height: '40%',
           }}
           >
             <NavigateBeforeIcon style ={{
